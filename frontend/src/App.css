@@ -339,7 +339,7 @@ body {
   left: 0;
   width: 60px;
   height: 4px;
-  background: var(--gradient-gold);
+  background: var(--gradient-sky);
   border-radius: 2px;
 }
 
