@@ -482,50 +482,152 @@ body {
   }
 }
 
-/* Videos Section */
+/* Videos Section - Streaming Platforms */
 .videos-section {
   padding: 100px 0;
   background: var(--warm-white);
 }
 
-.videos-grid {
+.streaming-subtitle {
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--gray-medium);
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+.streaming-platforms {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
   margin-top: 3rem;
 }
 
-.video-card {
+.platform-card {
   background: white;
   padding: 2rem;
   border-radius: 16px;
+  text-align: center;
   box-shadow: 0 8px 25px var(--shadow-light);
   transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
 }
 
-.video-card:hover {
+.platform-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 35px var(--shadow-medium);
 }
 
-.video-card h3 {
-  font-size: 1.5rem;
+.platform-card:nth-child(1):hover {
+  border-color: #E1306C;
+}
+
+.platform-card:nth-child(2):hover {
+  border-color: #FF0000;
+}
+
+.platform-card:nth-child(3):hover {
+  border-color: #1877F2;
+}
+
+.platform-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.instagram-icon,
+.youtube-icon,
+.facebook-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.live-badge,
+.livestream-badge {
+  background: #FF0000;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  animation: pulse 2s infinite;
+}
+
+.facebook-live {
+  background: #1877F2;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.platform-card h3 {
+  font-size: 1.4rem;
   color: var(--deep-blue);
   margin-bottom: 1.5rem;
-  text-align: center;
   font-weight: 600;
 }
 
-.video-container {
+.platform-button {
+  display: inline-block;
+  padding: 1rem 2rem;
   border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
   overflow: hidden;
-  text-align: center;
 }
 
-.video-container iframe {
+.instagram-button {
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+  color: white;
+}
+
+.youtube-button {
+  background: #FF0000;
+  color: white;
+}
+
+.facebook-button {
+  background: #1877F2;
+  color: white;
+}
+
+.platform-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.platform-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
   width: 100%;
-  max-width: 500px;
-  border-radius: 12px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: left 0.5s;
+}
+
+.platform-button:hover::before {
+  left: 100%;
 }
 
 /* Contact Section */
