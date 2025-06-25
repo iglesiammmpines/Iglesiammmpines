@@ -274,6 +274,21 @@ body {
   50% { transform: translateY(-20px); }
 }
 
+.hero-logo {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px var(--shadow-medium);
+  transition: all 0.3s ease;
+  object-fit: contain;
+}
+
+.hero-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 45px var(--shadow-heavy);
+}
+
 .section-image {
   width: 100%;
   max-width: 400px;
