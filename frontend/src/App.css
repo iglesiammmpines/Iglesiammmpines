@@ -743,6 +743,8 @@ body {
   font-size: 1rem;
   transition: all 0.3s ease;
   background: var(--warm-white);
+  cursor: pointer;
+  color: #000000; /* Negro absoluto para mejor contraste */
 }
 
 .form-group input:focus,
