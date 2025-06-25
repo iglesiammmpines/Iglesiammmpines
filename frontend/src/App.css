@@ -164,7 +164,7 @@ body {
   justify-content: center;
   position: relative;
   overflow: hidden;
-  padding: 120px 20px 80px;
+  padding: 140px 20px 80px; /* Aumentado de 120px a 140px para más espacio */
 }
 
 .hero-content {
