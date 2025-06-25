@@ -351,13 +351,21 @@ Mensaje: ${formData.mensaje}`;
               </div>
               
               <div className="form-group">
-                <input
-                  type="tel"
-                  name="telefono"
-                  placeholder="Tu teléfono"
-                  value={formData.telefono}
+                <select
+                  name="peticion"
+                  value={formData.peticion}
                   onChange={handleInputChange}
-                />
+                  required
+                  className="select-peticion"
+                >
+                  <option value="">Selecciona tu petición de oración</option>
+                  <option value="Por Mi familia">Por Mi familia</option>
+                  <option value="Mi Esposo o Esposa">Mi Esposo o Esposa</option>
+                  <option value="Liberación">Liberación</option>
+                  <option value="Volver a los caminos del Señor">Volver a los caminos del Señor</option>
+                  <option value="Visita Pastoral">Visita Pastoral</option>
+                  <option value="Otras">Otras</option>
+                </select>
               </div>
               
               <div className="form-group">
