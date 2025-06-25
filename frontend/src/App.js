@@ -379,10 +379,9 @@ Mensaje: ${formData.mensaje}`;
                 >
                   <option value="">Selecciona tu petición de oración</option>
                   <option value="Por Mi familia">Por Mi familia</option>
-                  <option value="Mi Esposo o Esposa">Mi Esposo o Esposa</option>
                   <option value="Liberación">Liberación</option>
                   <option value="Volver a los caminos del Señor">Volver a los caminos del Señor</option>
-                  <option value="Visita Pastoral">Visita Pastoral</option>
+                  <option value="Por sanidad">Por sanidad</option>
                   <option value="Otras">Otras</option>
                 </select>
               </div>
