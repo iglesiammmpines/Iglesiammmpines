@@ -749,10 +749,23 @@ body {
   left: 100%;
 }
 
-/* Contact Section */
-.contact-section {
-  padding: 100px 0;
-  background: var(--gray-light);
+/* Mensaje de oración */
+.prayer-message {
+  text-align: center;
+  margin: 2rem 0 3rem;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(0, 191, 255, 0.1), rgba(30, 144, 255, 0.1));
+  border-radius: 16px;
+  border: 2px solid rgba(0, 191, 255, 0.2);
+}
+
+.prayer-message h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
 }
 
 .contact-content {
