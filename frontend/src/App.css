@@ -1033,13 +1033,13 @@ body {
     padding: 1rem 0;
   }
 
-  .prayer-message {
-    margin: 1.5rem 0 2rem;
-    padding: 1.5rem;
+  .contact-info .prayer-message {
+    margin: 1rem 0;
+    padding: 1rem;
   }
 
-  .prayer-message h3 {
-    font-size: 1.5rem;
+  .contact-info .prayer-message h3 {
+    font-size: 1.3rem;
   }
 
   .contact-content {
