@@ -384,7 +384,7 @@ Mensaje: ${formData.mensaje}`;
         <div className="container">
           <div className="footer-content">
             <div className="footer-info">
-              <h3>Iglesia Cristiana Pentecostal MMM</h3>
+              <h3>Iglesia Cristiana Pentecostal del MMM en Pembroke Pines</h3>
               <p>Pembroke Pines, Florida</p>
             </div>
             
