@@ -182,18 +182,22 @@ Mensaje: ${formData.mensaje}`;
           <div className="schedule-grid">
             <div className="schedule-card">
               <div className="day">Martes</div>
+              <div className="service-type">Culto de Damas</div>
               <div className="time">8:00 PM</div>
             </div>
             <div className="schedule-card">
               <div className="day">Jueves</div>
+              <div className="service-type">Culto de Caballeros</div>
               <div className="time">8:00 PM</div>
             </div>
             <div className="schedule-card">
               <div className="day">Viernes</div>
+              <div className="service-type">Culto de Jóvenes</div>
               <div className="time">8:00 PM</div>
             </div>
             <div className="schedule-card special">
               <div className="day">Domingo</div>
+              <div className="service-type">Escuela Dominical</div>
               <div className="time">10:00 AM</div>
             </div>
           </div>
