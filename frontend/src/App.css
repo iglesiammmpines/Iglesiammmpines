@@ -27,7 +27,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: var(--gray-dark);
+  color: #000000; /* Negro absoluto para mejor contraste */
   background-color: var(--warm-white);
   overflow-x: hidden;
 }
