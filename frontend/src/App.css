@@ -745,7 +745,7 @@ body {
 
 /* Footer Section */
 .footer-section {
-  background: var(--deep-blue);
+  background: #2C3E50;
   color: white;
   padding: 60px 0 30px;
 }
