@@ -431,7 +431,7 @@ body {
 .schedule-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 12px 35px var(--shadow-medium);
-  border-color: var(--primary-gold);
+  border-color: var(--primary-sky);
 }
 
 .schedule-card.special {
@@ -448,7 +448,7 @@ body {
 .time {
   font-size: 2rem;
   font-weight: 800;
-  color: var(--primary-gold);
+  color: var(--primary-sky);
 }
 
 .schedule-card.special .time {
