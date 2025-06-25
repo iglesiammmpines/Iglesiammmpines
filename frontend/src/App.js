@@ -144,35 +144,32 @@ Mensaje: ${formData.mensaje}`;
       {/* Sección 3: Misión y Visión */}
       <section id="mision-vision" className="mission-section">
         <div className="container">
-          <div className="section-content reverse">
-            {/* Imagen del pastor predicando */}
-            <div className="content-image">
-              <img 
-                src="/667253_124489.webp" 
-                alt="Pastor predicando en el púlpito"
-                className="section-image"
-              />
+          <h2 className="section-title center">Misión y Visión</h2>
+          
+          {/* Imagen del pastor predicando */}
+          <div className="section-image-container">
+            <img 
+              src="/667253_124489.webp" 
+              alt="Pastor predicando en el púlpito"
+              className="section-image-full"
+            />
+          </div>
+          
+          <div className="text-content-centered">
+            <div className="mission-item">
+              <h3>Nuestra Misión</h3>
+              <p>
+                Ser una iglesia de bendición donde las vidas experimenten la presencia de Dios 
+                a través de la salvación de sus almas.
+              </p>
             </div>
             
-            <div className="content-text">
-              <h2 className="section-title">Misión y Visión</h2>
-              <div className="text-content">
-                <div className="mission-item">
-                  <h3>Nuestra Misión</h3>
-                  <p>
-                    Ser una iglesia de bendición donde las vidas experimenten la presencia de Dios 
-                    a través de la salvación de sus almas.
-                  </p>
-                </div>
-                
-                <div className="mission-item">
-                  <h3>Nuestra Visión</h3>
-                  <p>
-                    Es local, nacional y global. Estamos presentes en más de 180 países predicando 
-                    la sana doctrina del Evangelio.
-                  </p>
-                </div>
-              </div>
+            <div className="mission-item">
+              <h3>Nuestra Visión</h3>
+              <p>
+                Es local, nacional y global. Estamos presentes en más de 180 países predicando 
+                la sana doctrina del Evangelio.
+              </p>
             </div>
           </div>
         </div>
