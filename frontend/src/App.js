@@ -7,6 +7,7 @@ function App() {
     nombre: '',
     email: '',
     telefono: '',
+    peticion: '',
     mensaje: ''
   });
 
