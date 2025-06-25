@@ -147,11 +147,13 @@ Mensaje: ${formData.mensaje}`;
       <section id="mision-vision" className="mission-section">
         <div className="container">
           <div className="section-content reverse">
+            {/* Imagen del pastor predicando */}
             <div className="content-image">
-              <div className="image-placeholder">
-                <p className="placeholder-text">Pastor Predicando (Imagen 2)</p>
-                <p className="placeholder-subtitle">Espacio reservado para imagen</p>
-              </div>
+              <img 
+                src="/667253_124489.webp" 
+                alt="Pastor predicando en el púlpito"
+                className="section-image"
+              />
             </div>
             
             <div className="content-text">
