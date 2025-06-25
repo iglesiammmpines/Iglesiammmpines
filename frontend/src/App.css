@@ -768,11 +768,10 @@ body {
   letter-spacing: 0.5px;
 }
 
-.contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  margin-top: 3rem;
+/* Contact Section */
+.contact-section {
+  padding: 100px 0;
+  background: var(--gray-light);
 }
 
 .contact-info {
