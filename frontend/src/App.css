@@ -713,7 +713,7 @@ body {
 
 .info-item p,
 .info-item a {
-  color: var(--gray-medium);
+  color: #000000; /* Negro absoluto para mejor contraste */
   text-decoration: none;
 }
 
