@@ -351,6 +351,16 @@ Mensaje: ${formData.mensaje}`;
               </div>
               
               <div className="form-group">
+                <input
+                  type="tel"
+                  name="telefono"
+                  placeholder="Tu teléfono"
+                  value={formData.telefono}
+                  onChange={handleInputChange}
+                />
+              </div>
+              
+              <div className="form-group">
                 <select
                   name="peticion"
                   value={formData.peticion}
