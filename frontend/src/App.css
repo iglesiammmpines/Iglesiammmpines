@@ -745,7 +745,7 @@ body {
 }
 
 .footer-info h3 {
-  color: var(--primary-gold);
+  color: var(--primary-sky);
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
@@ -755,7 +755,7 @@ body {
 }
 
 .social-links h3 {
-  color: var(--primary-gold);
+  color: var(--primary-sky);
   margin-bottom: 1rem;
 }
 
