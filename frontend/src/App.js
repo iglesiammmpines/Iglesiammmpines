@@ -115,31 +115,28 @@ Mensaje: ${formData.mensaje}`;
       {/* Sección 2: Quiénes Somos */}
       <section id="quienes-somos" className="about-section">
         <div className="container">
-          <div className="section-content">
-            {/* Imagen de los pastores Mario y Rebeca */}
-            <div className="content-image">
-              <img 
-                src="/739679_820427.jpg" 
-                alt="Pastores Mario y Rebeca Aguirrera"
-                className="section-image"
-              />
-            </div>
-            
-            <div className="content-text">
-              <h2 className="section-title">Quiénes Somos</h2>
-              <div className="text-content">
-                <p>
-                  El Movimiento Misionero Mundial nació con una visión clara: llevar el evangelio de 
-                  Jesucristo a toda criatura, con poder, santidad y pasión por las almas. En Pembroke Pines, 
-                  fue establecida por el pastor David Vizcay Jr., y actualmente está bajo la cobertura de 
-                  los pastores Mario y Rebeca Aguirrera.
-                </p>
-                <p>
-                  Esta iglesia es un refugio espiritual donde se vive la sana doctrina, la oración y el 
-                  poder del Espíritu Santo.
-                </p>
-              </div>
-            </div>
+          <h2 className="section-title center">Quiénes Somos</h2>
+          
+          {/* Imagen de los pastores Mario y Rebeca */}
+          <div className="section-image-container">
+            <img 
+              src="/739679_820427.jpg" 
+              alt="Pastores Mario y Rebeca Aguirrera"
+              className="section-image-full"
+            />
+          </div>
+          
+          <div className="text-content-centered">
+            <p>
+              El Movimiento Misionero Mundial nació con una visión clara: llevar el evangelio de 
+              Jesucristo a toda criatura, con poder, santidad y pasión por las almas. En Pembroke Pines, 
+              fue establecida por el pastor David Vizcay Jr., y actualmente está bajo la cobertura de 
+              los pastores Mario y Rebeca Aguirrera.
+            </p>
+            <p>
+              Esta iglesia es un refugio espiritual donde se vive la sana doctrina, la oración y el 
+              poder del Espíritu Santo.
+            </p>
           </div>
         </div>
       </section>
