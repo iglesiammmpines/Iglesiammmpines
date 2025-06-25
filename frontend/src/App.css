@@ -509,6 +509,26 @@ body {
   color: white;
 }
 
+.schedule-card.special .day {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.schedule-card.special .service-type {
+  color: #000000; /* Negro absoluto para máximo contraste */
+  background: rgba(255, 255, 255, 0.95); /* Fondo blanco translúcido */
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.schedule-card.special .time {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .day {
   font-size: 1.3rem;
   font-weight: 600;
