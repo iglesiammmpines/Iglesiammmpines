@@ -310,6 +310,11 @@ Mensaje: ${formData.mensaje}`;
         <div className="container">
           <h2 className="section-title center">Contáctanos</h2>
           
+          {/* Texto de oración */}
+          <div className="prayer-message">
+            <h3>Queremos orar por ti</h3>
+          </div>
+          
           <div className="contact-content">
             <div className="contact-info">
               <div className="info-item">
