@@ -527,6 +527,16 @@ body {
   font-style: italic;
 }
 
+.testimonials-subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #000000; /* Negro absoluto para mejor contraste */
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .streaming-platforms {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
