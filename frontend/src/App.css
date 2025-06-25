@@ -274,49 +274,19 @@ body {
   50% { transform: translateY(-20px); }
 }
 
-/* Placeholders para imágenes */
-.image-placeholder {
+.section-image {
   width: 100%;
   max-width: 400px;
-  height: 300px;
-  background: var(--gradient-spiritual);
+  height: auto;
   border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  padding: 2rem;
   box-shadow: 0 12px 35px var(--shadow-medium);
-  position: relative;
-  overflow: hidden;
+  transition: all 0.3s ease;
+  object-fit: cover;
 }
 
-.image-placeholder::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" patternUnits="userSpaceOnUse" width="100" height="100"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-  opacity: 0.3;
-}
-
-.placeholder-text {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  z-index: 2;
-  position: relative;
-}
-
-.placeholder-subtitle {
-  font-size: 0.9rem;
-  opacity: 0.8;
-  z-index: 2;
-  position: relative;
+.section-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 45px var(--shadow-heavy);
 }
 
 /* Secciones generales */
