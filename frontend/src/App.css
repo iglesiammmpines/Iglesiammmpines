@@ -764,19 +764,33 @@ body {
 }
 
 .social-icon {
-  display: inline-block;
-  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
   color: white;
   text-decoration: none;
   transition: all 0.3s ease;
-  padding: 0.5rem;
-  border-radius: 8px;
+  border-radius: 12px;
   background: rgba(255, 255, 255, 0.1);
 }
 
 .social-icon:hover {
   transform: translateY(-3px);
-  background: var(--primary-gold);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.social-icon.facebook:hover {
+  background: #1877F2;
+}
+
+.social-icon.instagram:hover {
+  background: linear-gradient(45deg, #405DE6, #C13584, #E1306C);
+}
+
+.social-icon.youtube:hover {
+  background: #FF0000;
 }
 
 .footer-bottom {
