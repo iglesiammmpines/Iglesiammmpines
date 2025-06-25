@@ -115,12 +115,13 @@ Mensaje: ${formData.mensaje}`;
       <section id="quienes-somos" className="about-section">
         <div className="container">
           <div className="section-content">
-            {/* Espacio para imagen de la pareja - PRIMERO */}
+            {/* Imagen de los pastores Mario y Rebeca */}
             <div className="content-image">
-              <div className="image-placeholder">
-                <p className="placeholder-text">Pastores Mario y Rebeca (Imagen 1)</p>
-                <p className="placeholder-subtitle">Espacio reservado para imagen</p>
-              </div>
+              <img 
+                src="/739679_820427.jpg" 
+                alt="Pastores Mario y Rebeca Aguirrera"
+                className="section-image"
+              />
             </div>
             
             <div className="content-text">
