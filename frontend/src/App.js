@@ -28,6 +28,7 @@ function App() {
     const mensaje = `Hola, me llamo ${formData.nombre}. 
 Email: ${formData.email}
 Teléfono: ${formData.telefono}
+Petición de oración: ${formData.peticion}
 Mensaje: ${formData.mensaje}`;
     
     const whatsappUrl = `https://wa.me/17863832729?text=${encodeURIComponent(mensaje)}`;
