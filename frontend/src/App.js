@@ -96,12 +96,13 @@ Mensaje: ${formData.mensaje}`;
             </button>
           </div>
           
-          {/* Espacio para imagen del logo MMM */}
+          {/* Logo MMM */}
           <div className="hero-image-container">
-            <div className="image-placeholder">
-              <p className="placeholder-text">Logo MMM (Imagen 3)</p>
-              <p className="placeholder-subtitle">Espacio reservado para imagen</p>
-            </div>
+            <img 
+              src="/Screenshot_20250425_012358_Brave.jpg" 
+              alt="Logo Movimiento Misionero Mundial - Pembroke Pines"
+              className="hero-logo"
+            />
           </div>
         </div>
         
