@@ -48,7 +48,7 @@ Mensaje: ${formData.mensaje}`;
         <nav className="navbar">
           <div className="nav-container">
             <div className="nav-logo">
-              <span className="logo-text">MMM Pembroke Pines</span>
+              <span className="logo-text">Iglesia Cristiana Pentecostal del MMM en Pembroke Pines</span>
             </div>
             
             {/* Menú hamburguesa */}
