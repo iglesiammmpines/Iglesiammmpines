@@ -327,19 +327,51 @@ body {
   border-radius: 6px;
 }
 
-.hero-logo {
+/* Contenedor de imagen centrada para secciones */
+.section-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.section-image-full {
   width: 100%;
-  max-width: 350px;
+  max-width: 600px;
   height: auto;
   border-radius: 16px;
   box-shadow: 0 12px 35px var(--shadow-medium);
   transition: all 0.3s ease;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.hero-logo:hover {
-  transform: scale(1.05);
+.section-image-full:hover {
+  transform: translateY(-5px);
   box-shadow: 0 16px 45px var(--shadow-heavy);
+}
+
+/* Texto centrado para secciones */
+.text-content-centered {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.text-content-centered p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+/* Mejorar estilos de horarios */
+.service-type {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--deep-blue);
+  margin-bottom: 0.5rem;
+  font-style: italic;
 }
 
 .section-image {
