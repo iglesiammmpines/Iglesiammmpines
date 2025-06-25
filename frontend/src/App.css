@@ -787,9 +787,14 @@ body {
   gap: 2rem;
 }
 
-.info-icon {
-  font-size: 2rem;
-  color: var(--soft-blue);
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px var(--shadow-light);
 }
 
 .info-item h3 {
