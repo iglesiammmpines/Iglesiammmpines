@@ -781,14 +781,10 @@ body {
   margin-top: 3rem;
 }
 
-.info-item {
+.contact-info {
   display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1.5rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px var(--shadow-light);
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .info-icon {
