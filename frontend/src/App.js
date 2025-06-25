@@ -208,24 +208,16 @@ Mensaje: ${formData.mensaje}`;
             Mira los testimonios impactantes de lo que Dios ha hecho con nuestras vidas.
           </p>
           
-          <div className="testimonials-grid">
-            <div className="testimonial-card">
-              <div className="testimonial-icon">✨</div>
-              <h3>Transformación</h3>
-              <p>Vidas transformadas por el poder de Dios</p>
-            </div>
-            
-            <div className="testimonial-card">
-              <div className="testimonial-icon">🙏</div>
-              <h3>Sanidad</h3>
-              <p>Milagros de sanidad física y espiritual</p>
-            </div>
-            
-            <div className="testimonial-card">
-              <div className="testimonial-icon">💝</div>
-              <h3>Restauración</h3>
-              <p>Familias restauradas por el amor de Cristo</p>
-            </div>
+          <div className="testimony-video">
+            <iframe 
+              width="800" 
+              height="450" 
+              src="https://www.youtube.com/embed/yURFWUjwUko" 
+              title="Testimonio - ¿Qué hizo Dios conmigo?" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </section>
