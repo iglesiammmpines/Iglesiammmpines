@@ -402,7 +402,7 @@ body {
 .text-content p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: var(--gray-medium);
+  color: #000000; /* Negro absoluto para mejor contraste */
   margin-bottom: 1.5rem;
 }
 
