@@ -787,6 +787,25 @@ body {
   gap: 2rem;
 }
 
+/* Mensaje de oración en la columna izquierda */
+.contact-info .prayer-message {
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(0, 191, 255, 0.1), rgba(30, 144, 255, 0.1));
+  border-radius: 16px;
+  border: 2px solid rgba(0, 191, 255, 0.2);
+}
+
+.contact-info .prayer-message h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+}
+
 .info-item {
   display: flex;
   align-items: flex-start;
