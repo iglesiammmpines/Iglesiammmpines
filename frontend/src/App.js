@@ -115,6 +115,14 @@ Mensaje: ${formData.mensaje}`;
       <section id="quienes-somos" className="about-section">
         <div className="container">
           <div className="section-content">
+            {/* Espacio para imagen de la pareja - PRIMERO */}
+            <div className="content-image">
+              <div className="image-placeholder">
+                <p className="placeholder-text">Pastores Mario y Rebeca (Imagen 1)</p>
+                <p className="placeholder-subtitle">Espacio reservado para imagen</p>
+              </div>
+            </div>
+            
             <div className="content-text">
               <h2 className="section-title">Quiénes Somos</h2>
               <div className="text-content">
@@ -128,14 +136,6 @@ Mensaje: ${formData.mensaje}`;
                   Esta iglesia es un refugio espiritual donde se vive la sana doctrina, la oración y el 
                   poder del Espíritu Santo.
                 </p>
-              </div>
-            </div>
-            
-            {/* Espacio para imagen de la pareja */}
-            <div className="content-image">
-              <div className="image-placeholder">
-                <p className="placeholder-text">Pastores Mario y Rebeca (Imagen 1)</p>
-                <p className="placeholder-subtitle">Espacio reservado para imagen</p>
               </div>
             </div>
           </div>
