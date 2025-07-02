@@ -402,36 +402,17 @@ body {
 
 .hero-logo {
   width: 100%;
-  max-width: 280px; /* Mismo tamaño que las tarjetas de servicio */
+  max-width: 350px;
   height: auto;
   border-radius: 16px;
-  box-shadow: 0 8px 25px var(--shadow-light);
+  box-shadow: 0 12px 35px var(--shadow-medium);
   transition: all 0.3s ease;
   object-fit: contain;
-  background: #1877F2; /* Azul Facebook */
-  padding: 1rem; /* Padding similar a las tarjetas de servicio */
-  border: 3px solid #1877F2;
-  position: relative;
 }
 
 .hero-logo:hover {
-  transform: translateY(-5px); /* Mismo efecto hover que las tarjetas */
-  box-shadow: 0 12px 35px var(--shadow-medium);
-}
-
-/* Círculo con el color exacto de las letras "Pembroke Pines" */
-.hero-logo::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 80%;
-  height: 80%;
-  border: 3px solid #8B4513; /* Color marrón de las letras "Pembroke Pines FL" */
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 1;
+  transform: scale(1.05);
+  box-shadow: 0 16px 45px var(--shadow-heavy);
 }
 
 /* Secciones generales */
