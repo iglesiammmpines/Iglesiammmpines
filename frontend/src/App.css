@@ -417,7 +417,7 @@ body {
   box-shadow: 0 16px 45px var(--shadow-heavy);
 }
 
-/* Círculo del mismo color que las letras "Pembroke Pines FL" */
+/* Círculo del mismo color que las letras "Pembroke Pines FL" pero más suave */
 .hero-logo::after {
   content: '';
   position: absolute;
@@ -425,7 +425,7 @@ body {
   left: 50%;
   width: 85%;
   height: 85%;
-  border: 3px solid #8B4513; /* Color de las letras "Pembroke Pines FL" */
+  border: 3px solid rgba(139, 69, 19, 0.6); /* Color de "Pembroke Pines FL" pero más suave */
   border-radius: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
