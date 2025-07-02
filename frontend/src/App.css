@@ -293,6 +293,11 @@ body {
   overflow: hidden;
 }
 
+/* Estilo específico para el logo MMM */
+.hero-image-container .image-placeholder {
+  background: #1877F2; /* Azul Facebook para el cuadro del logo */
+}
+
 .image-placeholder::before {
   content: '';
   position: absolute;
