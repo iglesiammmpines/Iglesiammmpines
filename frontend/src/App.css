@@ -327,12 +327,14 @@ body {
   border-radius: 6px;
 }
 
-/* Contenedor de imagen centrada para secciones */
-.section-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3rem 0;
+/* Subtítulo de pastores */
+.pastors-subtitle {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--deep-blue);
+  margin: 1rem 0 3rem;
+  font-style: italic;
 }
 
 .section-image-full {
