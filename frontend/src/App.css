@@ -356,11 +356,19 @@ body {
 }
 
 /* Texto centrado para secciones */
-.text-content-centered {
-  max-width: 800px;
-  margin: 0 auto;
+.section-image-full:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 45px var(--shadow-heavy);
+}
+
+.schedule-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
   text-align: center;
-  padding: 2rem 0;
+  box-shadow: 0 8px 25px var(--shadow-light);
+  transition: all 0.3s ease;
+  border: 3px solid #a5c8ff; /* Borde azul claro permanente */
 }
 
 .text-content-centered p {
