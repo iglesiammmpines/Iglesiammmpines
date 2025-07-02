@@ -463,7 +463,7 @@ body {
 .text-content p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #000000; /* Negro absoluto para mejor contraste */
+  color: #1b1b1b; /* Más oscuro para mejor visibilidad */
   margin-bottom: 1.5rem;
 }
 
