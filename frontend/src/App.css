@@ -935,7 +935,7 @@ body {
 .select-peticion option {
   padding: 0.5rem;
   background: var(--warm-white);
-  color: #1b1b1b; /* Más oscuro para mejor visibilidad */
+  color: #000000; /* Negro absoluto para máximo contraste */
 }
 
 .submit-button {
