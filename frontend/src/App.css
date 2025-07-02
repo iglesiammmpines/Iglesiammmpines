@@ -337,14 +337,12 @@ body {
   font-style: italic;
 }
 
-.section-image-full {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border-radius: 16px;
-  box-shadow: 0 12px 35px var(--shadow-medium);
-  transition: all 0.3s ease;
-  object-fit: cover;
+/* Contenedor de imagen centrada para secciones */
+.section-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
 }
 
 .section-image-full:hover {
