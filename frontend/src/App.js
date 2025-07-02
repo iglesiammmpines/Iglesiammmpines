@@ -320,7 +320,25 @@ Mensaje: ${formData.mensaje}`;
                 <div className="info-icon">📍</div>
                 <div>
                   <h3>Dirección</h3>
-                  <p>10030 NW 6th Ct, Pembroke Pines, FL 33124</p>
+                  <div className="address-links">
+                    <a 
+                      href="https://www.google.com/maps?q=10030+NW+6+Ct,+Pembroke+Pines,+FL+33124" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="address-link"
+                    >
+                      📍 Ver en Google Maps
+                    </a>
+                    <a 
+                      href="https://maps.apple.com/?q=10030+NW+6+Ct,+Pembroke+Pines,+FL+33124" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="address-link"
+                    >
+                      🍎 Ver en Apple Maps
+                    </a>
+                    <p className="address-text">10030 NW 6th Ct, Pembroke Pines, FL 33124</p>
+                  </div>
                 </div>
               </div>
               
