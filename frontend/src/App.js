@@ -122,7 +122,7 @@ Mensaje: ${formData.mensaje}`;
           <div className="section-image-container">
             <img 
               src="/739679_820427.jpg" 
-              alt="Pastores David y Ana Vizcay"
+              alt="Los Pastores Mario y Rebeca Aguilera"
               className="section-image-full"
             />
           </div>
