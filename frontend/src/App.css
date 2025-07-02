@@ -425,7 +425,7 @@ body {
   left: 50%;
   width: 85%;
   height: 85%;
-  border: 3px solid rgba(139, 69, 19, 0.9); /* Color de "Pembroke Pines FL" pero más fuerte */
+  border: 3px solid #8B4513; /* Color sólido de "Pembroke Pines FL" - tono más fuerte */
   border-radius: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
