@@ -161,7 +161,10 @@ Mensaje: ${formData.mensaje}`;
               <h3>Nuestra Misión</h3>
               <p>
                 Ser una iglesia de bendición donde las vidas experimenten la presencia de Dios 
-                a través de la salvación de sus almas.
+                a través de la salvación de sus almas, y donde cada creyente aprenda a vivir en 
+                obediencia, disciplina espiritual y santidad, conforme a la Palabra de Dios. Nos 
+                esforzamos por formar discípulos que caminen en integridad, consagración y amor, 
+                reflejando el carácter de Cristo en todo lo que hacen.
               </p>
             </div>
             
