@@ -408,9 +408,10 @@ body {
   box-shadow: 0 12px 35px var(--shadow-medium);
   transition: all 0.3s ease;
   object-fit: contain;
-  background: #1877F2; /* Azul Facebook para el cuadro del logo */
-  padding: 1.5rem;
-  border: 3px solid #1877F2;
+  background: #1877F2; /* Azul Facebook para el marco del logo */
+  padding: 0.5rem; /* Padding reducido para marco delgado */
+  border: 4px solid #1877F2; /* Marco azul Facebook */
+  position: relative;
 }
 
 .hero-logo:hover {
@@ -418,12 +419,19 @@ body {
   box-shadow: 0 16px 45px var(--shadow-heavy);
 }
 
-/* Aplicar filtro de color al logo para cambiar elementos específicos */
-.hero-logo {
-  filter: 
-    brightness(1.1) 
-    contrast(1.2)
-    drop-shadow(0 4px 8px rgba(24, 119, 242, 0.3));
+/* Círculo suave alrededor del contenido del logo */
+.hero-logo::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 85%;
+  height: 85%;
+  border: 3px solid rgba(139, 69, 19, 0.4); /* Color más suave de "Pembroke Pines" */
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 /* Secciones generales */
