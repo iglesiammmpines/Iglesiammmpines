@@ -131,8 +131,8 @@ Mensaje: ${formData.mensaje}`;
             <p>
               El Movimiento Misionero Mundial nació con una visión clara: llevar el evangelio de 
               Jesucristo a toda criatura, con poder, santidad y pasión por las almas. En Pembroke Pines, 
-              fue establecida por el pastor David Vizcay Jr., y actualmente está bajo la cobertura de 
-              los pastores Mario y Rebeca Aguirrera.
+              fue establecida por los pastores David y Ana Vizcay, y actualmente está bajo la cobertura de 
+              los pastores Mario y Rebeca Aguilera.
             </p>
             <p>
               Esta iglesia es un refugio espiritual donde se vive la sana doctrina, la oración y el 
