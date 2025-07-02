@@ -409,12 +409,21 @@ body {
   transition: all 0.3s ease;
   object-fit: contain;
   background: #1877F2; /* Azul Facebook para el cuadro del logo */
-  padding: 1rem;
+  padding: 1.5rem;
+  border: 3px solid #1877F2;
 }
 
 .hero-logo:hover {
   transform: scale(1.05);
   box-shadow: 0 16px 45px var(--shadow-heavy);
+}
+
+/* Aplicar filtro de color al logo para cambiar elementos específicos */
+.hero-logo {
+  filter: 
+    brightness(1.1) 
+    contrast(1.2)
+    drop-shadow(0 4px 8px rgba(24, 119, 242, 0.3));
 }
 
 /* Secciones generales */
