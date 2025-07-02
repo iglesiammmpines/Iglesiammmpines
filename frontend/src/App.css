@@ -861,7 +861,7 @@ body {
 .contact-info .prayer-message h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #1b1b1b; /* Más oscuro para mejor visibilidad */
+  color: #000000; /* Negro absoluto para máximo contraste */
   margin: 0;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   letter-spacing: 0.5px;
