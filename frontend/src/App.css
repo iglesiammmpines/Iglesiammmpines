@@ -408,6 +408,8 @@ body {
   box-shadow: 0 12px 35px var(--shadow-medium);
   transition: all 0.3s ease;
   object-fit: contain;
+  background: #1877F2; /* Azul Facebook para el cuadro del logo */
+  padding: 1rem;
 }
 
 .hero-logo:hover {
