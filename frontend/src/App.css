@@ -644,7 +644,7 @@ body {
 .streaming-subtitle {
   text-align: center;
   font-size: 1.3rem;
-  color: #1b1b1b; /* Más oscuro para mejor visibilidad */
+  color: #000000; /* Negro absoluto para máximo contraste */
   margin-bottom: 3rem;
   font-style: italic;
 }
