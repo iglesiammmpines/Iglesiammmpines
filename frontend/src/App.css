@@ -122,7 +122,7 @@ body {
 .nav-link {
   background: none;
   border: none;
-  color: #000000; /* Negro absoluto para mejor contraste */
+  color: #1b1b1b; /* Más oscuro para mejor visibilidad */
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
