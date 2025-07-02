@@ -116,7 +116,7 @@ Mensaje: ${formData.mensaje}`;
       <section id="quienes-somos" className="about-section">
         <div className="container">
           <h2 className="section-title center">Quiénes Somos</h2>
-          <h3 className="pastors-subtitle">Pastores Mario y Rebeca Aguilera</h3>
+          <h3 className="pastors-subtitle">Pastores David y Ana Vizcay</h3>
           
           {/* Imagen de los pastores Mario y Rebeca */}
           <div className="section-image-container">
