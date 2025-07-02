@@ -386,7 +386,7 @@ body {
 .text-content-centered p {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #1b1b1b; /* Más oscuro para mejor visibilidad */
+  color: #000000; /* Negro absoluto para máximo contraste */
   margin-bottom: 1.5rem;
 }
 
