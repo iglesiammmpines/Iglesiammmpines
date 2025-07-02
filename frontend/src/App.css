@@ -509,14 +509,33 @@ body {
   margin-top: 3rem;
 }
 
-.schedule-card {
-  background: white;
-  padding: 2rem;
-  border-radius: 16px;
-  text-align: center;
-  box-shadow: 0 8px 25px var(--shadow-light);
+/* Enlaces de dirección */
+.address-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.address-link {
+  color: var(--primary-sky);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(0, 191, 255, 0.1);
   transition: all 0.3s ease;
-  border: 2px solid transparent;
+  display: inline-block;
+}
+
+.address-link:hover {
+  background: rgba(0, 191, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.address-text {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 .schedule-card:hover {
